@@ -36,9 +36,8 @@ def total_salary(path):
                 # print(salaries_list)
                 sal_list.append(salaries_list)
             total = sum(sal_list)
-            # print(total)
-            # length = len(sal_list)
-            length = sal_list.count()
+            print(total)
+            length = len(sal_list)
             print(length)
             average = total / length
             average = int(average)
